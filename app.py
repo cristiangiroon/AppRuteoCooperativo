@@ -2,7 +2,7 @@
 RutaDron Cauca – Aplicación de apoyo a la decisión (Streamlit)
 MediRuta Cauca S.A.S. · Distribución de medicamentos camión + dron
 
-Ejecutar:  streamlit run app/app.py
+Ejecutar desde la raíz:  streamlit run app.py
 """
 import io
 import os
@@ -13,7 +13,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+RAIZ = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(RAIZ, "python"))
 import vrpd  # noqa: E402
 
