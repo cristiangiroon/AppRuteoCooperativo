@@ -1,0 +1,22 @@
+parametro,valor,unidad,descripcion,tipo_dato
+n_grupos,3,unidades,Número máximo de camiones disponibles (cada uno puede llevar un dron),dato de la empresa (ficticio)
+usar_dron,1,0/1,1 = se permite usar dron; 0 = operación solo camión,decisión
+temporada,0,0/1,0 = temporada seca; 1 = temporada de lluvias,contexto caucano
+cap_camion_kg,800,kg,Capacidad útil de carga del camión (furgón liviano),dato de la empresa (ficticio)
+jornada_max_min,480,min,Duración máxima de la ruta (jornada de 8 h),política de la empresa
+vel_camion_kmh,30,km/h,Velocidad media del camión en temporada seca,estimado
+vel_camion_lluvia_kmh,22,km/h,Velocidad media del camión en temporada de lluvias,estimado
+factor_circuidad,1.45,adim.,Relación distancia vial / distancia en línea recta en zona andina,estimado
+factor_lluvia_destapada,1.30,adim.,Multiplicador del factor de vía de las vías destapadas en lluvias,estimado
+vel_dron_kmh,50,km/h,Velocidad de crucero del dron,estimado (ficha técnica típica)
+factor_vuelo,1.10,adim.,Sobrecosto de trayectoria del dron por relieve y ascenso,estimado
+peso_dron_kg,12,kg,Peso neto del dron vacío (f),estimado (ficha técnica típica)
+cap_dron_kg,5,kg,Carga útil máxima del dron (mD),estimado (ficha técnica típica)
+autonomia_vacio_min,40,min,Autonomía de vuelo del dron vacío (eD),estimado (ficha técnica típica)
+factor_autonomia_lluvia,0.90,adim.,Reducción de autonomía del dron por lluvia y viento,estimado
+servicio_dron_min,3,min,Tiempo de aterrizaje y entrega del dron en el cliente,estimado
+costo_camion_h,58000,COP/h,Costo variable del camión en movimiento (combustible y mantenimiento),estimado
+costo_dron_h,9000,COP/h,Costo variable del dron en vuelo (energía y desgaste),estimado
+costo_espera_h,22000,COP/h,Costo de espera del camión (ralentí y tiempo del conductor),estimado
+costo_fijo_camion,190000,COP/día,Costo fijo diario de un camión con conductor,estimado
+costo_fijo_dron,45000,COP/día,Costo fijo diario del dron (arriendo y operador certificado),estimado

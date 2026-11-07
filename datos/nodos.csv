@@ -1,0 +1,14 @@
+id,nombre,municipio,tipo,lat,lon,demanda_kg,servicio_min,tipo_via,factor_via,apto_dron
+0,Bodega MediRuta (Popayán),Popayán,deposito,2.4720,-76.5850,0,0,pavimentada,1.00,1
+1,Puesto de salud Julumito,Popayán,puesto,2.4560,-76.6560,3.5,15,destapada,1.45,1
+2,Puesto de salud Puelenje,Popayán,puesto,2.4250,-76.6330,4.0,15,destapada,1.50,1
+3,Puesto de salud Cajete,Popayán,puesto,2.3920,-76.6080,6.5,15,destapada,1.60,1
+4,Hospital Timbío,Timbío,hospital,2.3447,-76.6836,120.0,30,pavimentada,1.00,1
+5,Puesto de salud Poblazón,Popayán,puesto,2.3850,-76.5600,2.8,15,destapada,1.70,1
+6,Puesto de salud Las Piedras,Popayán,puesto,2.4230,-76.4900,4.5,15,destapada,1.75,1
+7,Puesto de salud Quintana,Popayán,puesto,2.4650,-76.4800,3.2,15,destapada,1.60,1
+8,Puesto de salud La Rejoya,Popayán,puesto,2.5150,-76.5900,4.8,15,destapada,1.40,1
+9,Puesto de salud Calibío,Popayán,puesto,2.5600,-76.5500,7.0,15,destapada,1.45,1
+10,Hospital Cajibío,Cajibío,hospital,2.6228,-76.5728,95.0,30,pavimentada,1.10,1
+11,Hospital Totoró,Totoró,hospital,2.5106,-76.4017,80.0,30,pavimentada,1.05,0
+12,Centro de salud Coconuco,Puracé,centro,2.3360,-76.4950,40.0,20,pavimentada,1.05,0
